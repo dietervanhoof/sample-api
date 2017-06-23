@@ -1,0 +1,22 @@
+#%RAML 0.8
+title: users
+version: 0.0.1
+/users:
+  displayName: Users
+  get:
+    description: Gets some users
+    body: 
+      application/json:
+        example: |
+          [
+            {
+              "id": 1,
+              "firstname": "John",
+              "lastname": "Doe"
+            },
+            {
+              "id": 2,
+              "firstname": "Jane",
+              "lastname": "Doe"
+            }
+          ]
