@@ -6,7 +6,7 @@
 	<artifactId>sample-api</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
-	<name>Mule sampla-api Application</name>
+	<name>Mule sample-api Application</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
